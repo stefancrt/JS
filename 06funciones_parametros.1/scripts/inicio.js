@@ -46,7 +46,7 @@ function main () {
     console.log(sumarArg (nNum1, nNum2, nNum3));
     console.log(sumarArg (nNum1, nNum2, nNum3, nNum4, 12, 12));    
     console.log(sumarArg (12, 23, 12, 23, 45, 32, 12, 54, 32, 65, 76 ));
-    console.log(mediaArg (12, 23, 12, 23, 45, 32, 12, 54, 32, 65, 76 ));
+    console.log(mediaArg (12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 ));
     
     
     saludar();
