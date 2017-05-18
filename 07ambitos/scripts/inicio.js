@@ -22,5 +22,5 @@ function main () {
 
 // InvocaciÃ³n de la funcion
 main()
-//
+//*** */
 console.log(sName);
