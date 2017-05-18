@@ -1,0 +1,22 @@
+{
+  "name": "01-fundamentos",
+  "version": "1.0.0",
+  "description": "Funciones en JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://alce65@gitlab.com/front-end-alce65/JS_Core/01-fundamentos.git"
+  },
+  "keywords": [
+    "JS",
+    "Node"
+  ],
+  "author": "Alejandro Cerezo",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}

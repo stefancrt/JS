@@ -25,8 +25,6 @@ var queSoy;
 // Null (Object)
 var oDatos = {}
 
-ornitorrinco 
-
 // Object
 var oDatos = {
   nombre: "Pepe",
