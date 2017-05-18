@@ -17,12 +17,20 @@ function sumar (a=0, b=0, c=0, d=0) {
 function sumarArg () {
     let nResult = 0;
     for (var i = 0; i < arguments.length; i++) {
-        nResult += arguments[i];        
+        nResult += arguments[i];
+        nMedia =nResult/i;        
     }
    return nResult;
 }
 
-
+function mediaArg () {
+    let nResult = 0;
+    for (var i = 0; i < arguments.length; i++) {
+        nResult += arguments[i];
+        nMedia =nResult/arguments.length;        
+    }
+   return nMedia;
+}
 
 //function sumarMal () {
 //    return nNum1 + nNum2;
@@ -38,6 +46,8 @@ function main () {
     console.log(sumarArg (nNum1, nNum2, nNum3));
     console.log(sumarArg (nNum1, nNum2, nNum3, nNum4, 12, 12));    
     console.log(sumarArg (12, 23, 12, 23, 45, 32, 12, 54, 32, 65, 76 ));
+    console.log(mediaArg (12, 23, 12, 23, 45, 32, 12, 54, 32, 65, 76 ));
+    
     
     saludar();
     
