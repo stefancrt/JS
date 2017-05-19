@@ -1,4 +1,3 @@
-
 let oSample1 = {};
 let oSample2 = new Object();
 
@@ -32,9 +31,12 @@ oFlight = {
 	},
 	arrival : {
 		claveIATA: "LAX",
-		time: "2004-09-23 10:42",
+		time: new Date(2004,09,23,10,42),
 		ciudad: "Los Angeles"
+	},
+	mostrar : () => {
+		console.log(oFlight);
 	}
 }
 
-console.log(oFlight);
+oFlight.mostrar()
